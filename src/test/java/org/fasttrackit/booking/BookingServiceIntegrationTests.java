@@ -4,10 +4,8 @@ import org.fasttrackit.booking.domain.Booking;
 import org.fasttrackit.booking.exception.ResourceNotFoundException;
 import org.fasttrackit.booking.service.BookingService;
 import org.fasttrackit.booking.transfer.SaveBookingRequest;
-
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.mockito.internal.matchers.GreaterThan;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
